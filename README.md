@@ -79,12 +79,11 @@ Individual frames cannot reliably distinguish these temporal patterns. For examp
 
 ### 3.1 Dataset Specifications
 
-**Kaggle Link**: [InvigilAI Examination Cheating Dataset](https://kaggle.com/datasets/rimsha002/invigilai-exam-cheating-detection)
+**Kaggle Link**: [InvigilAI Examination Cheating Dataset]( https://www.kaggle.com/datasets/rimmajeed/examcheating-multiv-video-based-dataset)
 
 | Property | Value |
 |----------|-------|
-| **Total Clips** | 3,100 |
-| **Total Raw Videos** | 637 MP4/MOV files |
+| **Total Clips** | 3,100 || **Total Raw Videos** | 637 MP4/MOV files |
 | **Participants** | ~65 (diverse demographics) |
 | **Recording Environments** | 5 versions (V1-V5) + final theater-style setup |
 | **Frame Rate** | 24-30 FPS |
