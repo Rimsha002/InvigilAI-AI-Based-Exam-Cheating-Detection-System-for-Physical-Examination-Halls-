@@ -152,7 +152,7 @@ Raw Classroom Video (637 total)
         ↓
 Student Detection (YOLO person class)
         ↓
-Multi-Object Tracking (BoT-SORT)
+Multi-Object Tracking (ByteTrack)
         ↓
 Student ID Assignment (unique per student)
         ↓
