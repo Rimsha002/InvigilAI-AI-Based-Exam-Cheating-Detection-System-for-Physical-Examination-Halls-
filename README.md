@@ -868,6 +868,7 @@ Bazarevsky, V., Girdhar, R., Grangier, D., et al. (2020). BlazePose: On-device R
 **Authors**: Rimsha Majeed (rimshamajeed2002@gmail.com)
 
 **Team Mate**: Alina Idress, Khadija tul Kubra 
+
 **Affiliation**: Punjab University College of Information Technology (PUCIT), University of the Punjab, Lahore, Pakistan
 
 **Supervisor**: Dr. Muhammad Farooq (mfarooq@pucit.edu.pk)
