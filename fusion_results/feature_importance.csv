@@ -1,0 +1,8 @@
+Feature,Importance
+VideoMAE_mobile,0.17906715
+VideoMAE_normal,0.17295961
+VideoMAE_notes,0.16386256
+VideoMAE_copying,0.15893456
+VideoMAE_gesture,0.13465144
+YOLO_mobile_conf,0.0992368
+YOLO_notes_conf,0.09128784

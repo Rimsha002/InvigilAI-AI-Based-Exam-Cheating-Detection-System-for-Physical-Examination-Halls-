@@ -1,0 +1,11 @@
+                  precision    recall  f1-score   support
+
+cheating_copying     0.5556    0.6832    0.6128       161
+cheating_gesture     0.4714    0.5156    0.4925        64
+ cheating_mobile     0.7259    0.8596    0.7871       114
+  cheating_notes     0.5938    0.6477    0.6196        88
+          normal     0.8264    0.5181    0.6369       193
+
+        accuracy                         0.6419       620
+       macro avg     0.6346    0.6449    0.6298       620
+    weighted avg     0.6679    0.6419    0.6409       620

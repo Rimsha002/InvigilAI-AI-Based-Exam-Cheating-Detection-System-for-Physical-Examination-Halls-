@@ -1,0 +1,12 @@
+# Ignore trained model weights and checkpoint binaries
+models/
+VideoMAE_Results/*.pth
+
+# Ignore generated outputs and large sample videos
+sample_outputs/
+*.mp4
+*.MOV
+
+# Ignore large pickle and output artifacts
+fusion_results/*.pkl
+models/*.pkl
