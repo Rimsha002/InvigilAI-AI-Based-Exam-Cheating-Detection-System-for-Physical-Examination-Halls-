@@ -1,6 +1,7 @@
-# InvigilAI: Multi-Modal Fusion Framework for Intelligent Examination Cheating Detection
+# InvigilAI: AI-Based Exam Cheating Detection System for Physical Examination Halls
 
-**A Research Project on AI-Based Real-Time Exam Cheating Detection for Physical Examination Halls**
+
+**A Research-based Project**
 
 ---
 
@@ -864,13 +865,15 @@ Bazarevsky, V., Girdhar, R., Grangier, D., et al. (2020). BlazePose: On-device R
 
 ## Contact and Citation
 
-**Authors**: Alina Idrees (BITF22M003), Khadija Tul Kubra (BITF22M025), Rimsha Majeed (BITF22M029, Team Lead)
+**Authors**: Rimsha Majeed (rimshamajeed2002@gmail.com)
 
+**Team Mate**: Alina Idress, Khadija tul Kubra 
 **Affiliation**: Punjab University College of Information Technology (PUCIT), University of the Punjab, Lahore, Pakistan
 
 **Supervisor**: Dr. Muhammad Farooq (mfarooq@pucit.edu.pk)
 
-**Dataset**: Available at [Kaggle: InvigilAI Exam Cheating Detection](https://kaggle.com/datasets/rimsha002/invigilai-exam-cheating-detection)
+**Dataset**: Available at [Kaggle: InvigilAI Exam Cheating Detection](https://www.kaggle.com/datasets/rimmajeed/examcheating-multiv-video-based-dataset)
+
 
 ### Citation
 
