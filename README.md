@@ -7,7 +7,7 @@
 
 ## Abstract
 
-This paper presents **InvigilAI**, an intelligent multi-modal fusion framework designed for automatic detection and classification of multiple cheating behaviors from examination surveillance videos. Academic integrity in traditional examination environments faces significant challenges due to the limitations of human invigilation. Existing AI-based solutions suffer from binary classification constraints, image-based dependencies, and poor generalization to real examination scenarios. 
+This presents **InvigilAI**, an intelligent multi-modal fusion framework designed for automatic detection and classification of multiple cheating behaviors from examination surveillance videos. Academic integrity in traditional examination environments faces significant challenges due to the limitations of human invigilation. Existing AI-based solutions suffer from binary classification constraints, image-based dependencies, and poor generalization to real examination scenarios. 
 
 To address these limitations, we propose a comprehensive framework that integrates:
 - **VideoMAE**: Transformer-based temporal action recognition
@@ -105,26 +105,41 @@ Individual frames cannot reliably distinguish these temporal patterns. For examp
 ### 3.3 Dataset Evolution Through Iterative Versions
 
 #### Version 1 (V1): Controlled Single-Student
+
+<img src="/Assets/d_sample4.png" alt="dataset" width="200" height="200"/>
+
 - **Purpose**: Proof-of-concept feasibility
 - **Characteristics**: Single student, uniform lighting, minimal occlusion
 - **Limitation**: Highly artificial; no student interaction
 
 #### Version 2 (V2): Multi-Angle Recording
+
+<img src="/Assets/d_sample2.png" alt="dataset" width="500" height="500"/>
+
 - **Purpose**: Viewpoint invariance
 - **Characteristics**: Front, side, oblique angles; varying lighting; multiple resolutions
 - **Challenge**: Motion blur and lighting variations introduced
 
 #### Version 3 (V3): Multi-Student Theater Environment
+
+<img src="/Assets/d_sample3.png" alt="dataset" width="500" height="500"/>
+
 - **Purpose**: Student interaction capture
 - **Characteristics**: Multiple simultaneous students, complex backgrounds, partial occlusions
 - **Challenge**: Overlapping students and small object visibility
 
 #### Version 4 (V4): Classroom Environment
+
+<img src="/Assets/sample.png" alt="dataset" width="500" height="500"/>
+
 - **Purpose**: Temporal diversity and realistic patterns
 - **Characteristics**: 20-30 students, natural behavior, long-duration recordings
 - **Challenge**: Perspective distortion and heavy occlusion
 
 #### Version 5 (Final): Theater-Style Examination Hall
+
+<img src="/Assets/dataset_sample.png" alt="dataset" width="500" height="500"/>
+
 - **Purpose**: Closest approximation to real examination conditions
 - **Characteristics**: Theater seating arrangement, diverse viewpoints, varied distances, realistic inter-class similarity
 - **Outcome**: Foundation dataset for the proposed framework
@@ -335,6 +350,10 @@ $$Score_t = 0.9 \cdot Score_{t-1} + \begin{cases} 1 & \text{if rule triggered} \
 
 Maximum score = 10.0; triggers detection at score > 5.0
 
+#### Sample output
+
+<img src="/Assets/yolopose output.png" alt="dataset" width="500" height="500"/>
+
 #### Performance Results
 
 | Metric | Value |
@@ -424,6 +443,10 @@ Each patch attends to all other patches globally, enabling:
 | Warmup Steps | 10% of total |
 | Dropout | 0.2 |
 | Frame Input | 16 at 224×224 |
+
+#### Sample output frame
+
+<img src="/Assets/output.png" alt="dataset" width="500" height="500"/>
 
 #### Performance Results
 
@@ -626,6 +649,15 @@ if P_Notes > 0.80:
 else:
     class = argmax(P_fusion)
 ```
+#### ROC curve of Fusion
+<img src="/Assets/roc_curves.png" alt="dataset" width="500" height="500"/>
+
+#### Features Importance
+<img src="/Assets/feature_importance.png" alt="dataset" width="500" height="500"/>
+
+#### Sample output of Fusion 
+
+<img src="/Assets/fusion output.png" alt="dataset" width="500" height="500"/>
 
 ### 6.4 Temporal Smoothing
 
