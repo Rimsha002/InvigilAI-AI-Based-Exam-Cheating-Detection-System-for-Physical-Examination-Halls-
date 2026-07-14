@@ -911,7 +911,7 @@ Bazarevsky, V., Girdhar, R., Grangier, D., et al. (2020). BlazePose: On-device R
 ```bibtex
 @misc{invigilai2025,
   title={InvigilAI: Multi-Modal Fusion Framework for Intelligent Examination Cheating Detection},
-  author={Idrees, Alina and Kubra, Khadija Tul and Majeed, Rimsha},
+  author={ Rimsha Majeed},
   year={2025},
   institution={Punjab University College of Information Technology (PUCIT)},
   type={Final Year Project (FYP)},
